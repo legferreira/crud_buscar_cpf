@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - Listar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="post.html">Cadastrar</a>
+        <a href="get.html">Listar</a>
+        <a href="put.html">Atualizar</a>
+        <a href="delete.html">Deletar</a>
+    </nav>
+
+    <h1>Dados Cadastrais</h1>
+    <form>
+        <label>CPF:</label>
+        <input type="text" id="cpf" placeholder="Digite o CPF para busca">
+        <input type="button" onclick="buscarPorCpf()" value="Buscar">
+        <input type="button" onclick="listarDados()" value="Listar todos">
+    </form>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>CPF</th>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Email</th>
+            <th>Idade</th>
+            <th>Telefone</th>
+            <th>Rua</th>
+            <th>Bairro</th>
+            <th>Cidade</th>
+            <th>Estado</th>
+            <th>RG</th>
+        </tr>
+        <tbody id="tabela-corpo"></tbody>
+    </table>
+
+    <script src="get/get.js"></script>
+</body>
+</html>
