@@ -1,0 +1,60 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "cpf": "123.456.789-00",
+      "nome": "Maria",
+      "sobrenome": "Silva",
+      "email": "maria.silva@email.com",
+      "idade": "20",
+      "telefone": "(11) 91234-5678",
+      "rua": "Rua das Flores, 100",
+      "bairro": "Centro",
+      "cidade": "Mogi das Cruzes",
+      "estado": "SP",
+      "rg": "12.345.678-9"
+    },
+    {
+      "id": 2,
+      "cpf": "111.222.333-44",
+      "nome": "Pedro",
+      "sobrenome": "Souza",
+      "email": "pedro.souza@email.com",
+      "idade": "30",
+      "telefone": "(11) 99876-5432",
+      "rua": "Avenida Brasil, 2500",
+      "bairro": "Jardim América",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "rg": "22.333.444-5"
+    },
+    {
+      "id": 3,
+      "cpf": "999.888.777-66",
+      "nome": "Tiago",
+      "sobrenome": "Oliveira",
+      "email": "tiago.oliveira@email.com",
+      "idade": "70",
+      "telefone": "(21) 98765-4321",
+      "rua": "Rua do Sol, 45",
+      "bairro": "Copacabana",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "rg": "33.444.555-6"
+    },
+    {
+      "id": 4,
+      "cpf": "999.444.666-88",
+      "nome": "Luisa",
+      "sobrenome": "Matos",
+      "email": "luisa.matos@email.com",
+      "idade": "16",
+      "telefone": "(11) 99875-5896",
+      "rua": "Rua da Luz, 234",
+      "bairro": "Jardins",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "rg": "15.478.266-9"
+    }
+  ]
+}
